@@ -1,0 +1,69 @@
+.clearfix {
+    overflow: auto;
+}
+
+/* Body */
+
+body {
+    /* Setting Background Image */
+    background-image: url("../images/bridge-clouds-forest-461772.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    color: #f8f1df;
+}
+
+/* Header */
+
+#title-card {
+    text-align: center;
+    background-color: #bc99837a;
+    font-size: 25px;
+    margin-top: 25px;
+    padding-bottom: 16px;
+    padding-top: 35px;
+}
+
+#heading {
+    font-size: 90px;
+}
+
+#tagline {
+    font-size: 44px;
+}
+
+/* Cards */
+
+#current-train-card {
+    background-color: #727781f0;
+}
+
+#add-train-card {
+    background-color: #de9800f2
+}
+
+/* Other */
+
+.form-control {
+    background-color: #ffa2706e;
+}
+
+.btn-light {
+    color: #f8f1df;
+    background-color: #bf6200ad;
+    border-color: #727781f0;
+    margin: 1px;
+}
+
+/* Fonts */
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+div {
+    font-family: 'Poiret One', cursive;
+}
