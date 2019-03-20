@@ -67,3 +67,28 @@ h1 {
 div {
     font-family: 'Poiret One', cursive;
 }
+
+/* Footer */
+
+.footer {
+    position: relative;
+}
+
+#audio-column {
+    padding-right: 340px;
+    text-align: center;
+}
+
+#copyright-text {
+    color: #fff8f8;
+    text-shadow: 2px 2px #00000085;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#copyright-column {
+    text-align: center;
+}
+#footer-row {
+    justify-content: center;
+}
