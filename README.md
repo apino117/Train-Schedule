@@ -1,6 +1,6 @@
 # Train-Schedule
 
-Welcome to the Train-Schedule page - the world's page! It is of the world!
+Welcome to the Train-Schedule page - the world's...page! It is technically of the world so I'm not wrong in saying that!
 
 Train scheduler is for all ages, although if you're looking up train times as a kid you're clearly on a whole different plane. 
 

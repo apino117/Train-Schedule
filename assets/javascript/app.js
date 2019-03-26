@@ -85,7 +85,7 @@ database.ref().on("child_added", function (childSnapshot) {
 
     // Next Train
     var nextTrain = moment().add(tMinutesTillTrain, "minutes");
-    console.log("ARRIVAL TIME: " + moment(nextTrain).format("hh:mm"));
+    console.log("ARRIVAL TIME: " + moment(nextTrain).format("hh:mm A"));
 
     // ------- TRAIN MATH END ------ //
 
@@ -94,7 +94,7 @@ database.ref().on("child_added", function (childSnapshot) {
         $("<td>").text(trainName),
         $("<td>").text(destination),
         $("<td>").text(frequency),
-        $("<td>").text(moment(nextTrain).format("hh:mm")),
+        $("<td>").text(moment(nextTrain).format("hh:mm A")),
         $("<td>").text(tMinutesTillTrain),
     );
 
